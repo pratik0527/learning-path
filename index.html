@@ -1,0 +1,112 @@
+<html>
+    <head>
+        
+        <title>Fnplus | Learning Path</title>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- CSS End -->
+        <!-- JS -->
+        <script type="text/javascript" src="js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <!-- JS End -->
+        <!-- Bootstrap -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Bootstrap End -->
+        
+    </head>
+    <body>
+        
+        <!-- Navbar -->
+        
+        <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              Learning Path
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">Overview</a></li>
+                                    <li><a href="#">Suggested Paths</a></li>
+                                    <li><a href="#">For Faculty</a></li>
+                                    <li><a href="#">Resource Library</a></li>
+                                    <li><a href="#">Explore Technology</a></li>
+                                    <li><input type="text" class="form-control" placeholder="Search" name="search"></li>
+                                  <li></li>
+                              </ul>
+                        </div>
+                  </nav>
+                
+                    <!-- Navbar -->
+                
+                <div class="content">
+                    <h1>
+                        <b>Grow Your Technical Skills with us</b>
+                    </h1>
+                    <br>
+                    <p>
+                        Whether you’re a student or an educator, newer to computer science or a more experienced coder, or otherwise interested in software engineering, we hope there’s something for you here in this Learning Path for Technical Development.
+                    </p>
+                    <br>
+                    <p>
+                        We’ve carefully curated a collection of material from many sources, including Google, that you can use to supplement your classwork or direct your own learning.
+                    </p>
+                </div>
+
+            </header>
+            
+        
+            
+      </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+        
+        
+    </body>
+</html>
